@@ -1,0 +1,15 @@
+---
+openldap_confdir: /etc/openldap
+openldap_user: ldap
+openldap_group: ldap
+openldap_datadir: /var/openldap-data
+openldap_db_engine: hdb
+openldap_modsdir:
+slapd_exec: /usr/local/libexec/slapd
+slapd_pidfile: /var/run/openldap/slapd.pid
+slapd_argsfile: /var/run/openldap/slapd.args
+temp_dir: /opt/
+clean_all: true
+ldap_http_port: 389
+repl_user_password: redhat
+ldap_master_url: ldap://10.0.0.11:389/
